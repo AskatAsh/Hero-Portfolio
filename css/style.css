@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Yeseva+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-container {
+  width: 1280px;
+  margin: 0 auto;
+  background-color: rgb(229, 255, 245);
+  position: relative;
+  color: #333333;
+  font-family: "Poppins", arial, verdana, sans-serif;
+}
+.position {
+  position: absolute;
+}
+.btn {
+  background-color: #664ff2;
+  color: #ffffff;
+  text-align: center;
+  align-items: center;
+  padding: 12px;
+  box-shadow: 4px 4px 4px rgba(102, 79, 242, 0.4);
+  border-radius: 10px;
+}
+.profileImage {
+  width: 620px;
+  height: 620px;
+  left: 611px;
+  top: -10px;
+}
+.left-border {
+  width: 7px;
+  height: 180px;
+  left: 100px;
+  top: 130px;
+
+  background: #ff5959;
+  border-radius: 5px;
+}
+
+.title-1 {
+  width: 497px;
+  height: 160px;
+  left: 130px;
+  top: 100px;
+  font-family: "Yeseva One", cursive, arial, verdana, sans-serif;
+  font-size: 40px;
+  line-height: 80px;
+}
+.coloredText {
+  color: #664ff2;
+}
+p {
+  font-size: 16px;
+  line-height: 28px;
+}
+.description {
+  width: 471px;
+  height: 84px;
+  left: 100px;
+  top: 360px;
+  font-size: 18px;
+}
+.btn-1 {
+  width: 172px;
+  height: 48px;
+  left: 100px;
+  top: 480px;
+}
+.scroll-down {
+  width: 100px;
+  height: 5px;
+  left: 585px;
+  background: #333333;
+  border-radius: 7px;
+}
+.scroll-1 {
+  top: 570px;
+}
+.scroll-2 {
+  top: 1270px;
+}
+.scroll-3 {
+  top: 2000px;
+}
+.scroll-4 {
+  top: 2700px;
+}
+
+.header-2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 70px;
+}
+.title-2 {
+  width: 420px;
+  height: 70px;
+  left: 420px;
+  top: 700px;
+}
+.cards {
+  width: 350px;
+  height: 370px;
+  border-radius: 30px;
+  top: 850px;
+}
+.card-1 {
+  left: 70px;
+  background: rgba(255, 142, 244, 0.2);
+}
+.cardIcons {
+  width: 140px;
+  height: 140px;
+  top: 25px;
+  left: 110px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+.cardHead {
+  width: 180px;
+  height: 36px;
+  left: 110px;
+  top: 180px;
+}
+.cardPara {
+  width: 300px;
+  height: 101px;
+  left: 25px;
+  top: 230px;
+  text-align: center;
+}
+
+.card-2 {
+  left: 470px;
+  background: rgba(66, 244, 148, 0.2);
+}
+.card-3 {
+  left: 870px;
+  background: rgba(255, 184, 0, 0.2);
+}
+/* section 3 */
+.img {
+  width: 450px;
+  height: 450px;
+  left: 80px;
+  top: 1450px;
+  border-radius: 30px;
+}
+.img-1 {
+  left: 80px;
+  top: 1450px;
+}
+
+.rectengle-1 {
+  width: 230px;
+  height: 230px;
+  border-radius: 100px;
+  left: 2px;
+  top: 1770px;
+  z-index: -99;
+  background: rgba(255, 142, 244, 0.3);
+}
+.title-3 {
+  text-align: left;
+  width: 600px;
+  height: 100px;
+  left: 600px;
+  top: 1460px;
+}
+.para-5 {
+  width: 600px;
+  height: 200px;
+  left: 600px;
+  top: 1640px;
+  font-size: 18px;
+}
+.btn-2 {
+  width: 172px;
+  height: 48px;
+  left: 600px;
+  top: 1860px;
+}
+/* section 4 */
+.img-2 {
+  left: 740px;
+  top: 2200px;
+}
+.rectengle-2 {
+  width: 230px;
+  height: 230px;
+  border-radius: 100px;
+  left: 1040px;
+  top: 2530px;
+  z-index: -99;
+  background: rgba(66, 244, 148, 0.2);
+}
+.title-4 {
+  text-align: left;
+  width: 600px;
+  height: 100px;
+  left: 80px;
+  top: 2230px;
+}
+.para-6 {
+  width: 600px;
+  height: 200px;
+  left: 80px;
+  top: 2410px;
+  font-size: 18px;
+}
+.btn-3 {
+  width: 172px;
+  height: 48px;
+  left: 80px;
+  top: 2630px;
+}
+.footer {
+  top: 3000px;
+  width: 100%;
+  height: 170px;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+}
+.footColor {
+  color: #ff5959;
+}
+.footText {
+  margin-top: 40px;
+}
