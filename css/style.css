@@ -24,6 +24,52 @@
   box-shadow: 4px 4px 4px rgba(102, 79, 242, 0.4);
   border-radius: 10px;
 }
+/* scroll on a section in a single click */
+.scroll-down {
+  width: 100px;
+  height: 5px;
+  left: 585px;
+  background: #333333;
+  border-radius: 7px;
+}
+.scroll-1 {
+  top: 570px;
+}
+.scroll-2 {
+  top: 1270px;
+}
+.scroll-3 {
+  top: 2000px;
+}
+.scroll-4 {
+  top: 2720px;
+}
+.header-2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 70px;
+}
+.coloredText {
+  color: #664ff2;
+}
+p {
+  font-size: 16px;
+  line-height: 28px;
+}
+h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+.img {
+  width: 450px;
+  height: 450px;
+  left: 80px;
+  top: 1450px;
+  border-radius: 30px;
+}
+
+/* ---first section--- */
 .profileImage {
   width: 620px;
   height: 620px;
@@ -49,13 +95,7 @@
   font-size: 40px;
   line-height: 80px;
 }
-.coloredText {
-  color: #664ff2;
-}
-p {
-  font-size: 16px;
-  line-height: 28px;
-}
+
 .description {
   width: 471px;
   height: 84px;
@@ -69,32 +109,8 @@ p {
   left: 100px;
   top: 500px;
 }
-.scroll-down {
-  width: 100px;
-  height: 5px;
-  left: 585px;
-  background: #333333;
-  border-radius: 7px;
-}
-.scroll-1 {
-  top: 570px;
-}
-.scroll-2 {
-  top: 1270px;
-}
-.scroll-3 {
-  top: 2000px;
-}
-.scroll-4 {
-  top: 2720px;
-}
 
-.header-2 {
-  text-align: center;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 70px;
-}
+/* second section */
 .title-2 {
   width: 420px;
   height: 70px;
@@ -107,10 +123,7 @@ p {
   border-radius: 30px;
   top: 850px;
 }
-.card-1 {
-  left: 70px;
-  background: rgba(255, 142, 244, 0.2);
-}
+
 .cardIcons {
   width: 140px;
   height: 140px;
@@ -118,10 +131,6 @@ p {
   left: 110px;
 }
 
-h3 {
-  font-size: 24px;
-  font-weight: 600;
-}
 .cardHead {
   width: 180px;
   height: 36px;
@@ -135,7 +144,10 @@ h3 {
   top: 230px;
   text-align: center;
 }
-
+.card-1 {
+  left: 70px;
+  background: rgba(255, 142, 244, 0.2);
+}
 .card-2 {
   left: 470px;
   background: rgba(66, 244, 148, 0.2);
@@ -144,14 +156,8 @@ h3 {
   left: 870px;
   background: rgba(255, 184, 0, 0.2);
 }
-/* section 3 */
-.img {
-  width: 450px;
-  height: 450px;
-  left: 80px;
-  top: 1450px;
-  border-radius: 30px;
-}
+/* third section */
+
 .img-1 {
   left: 80px;
   top: 1450px;
@@ -186,7 +192,8 @@ h3 {
   left: 600px;
   top: 1860px;
 }
-/* section 4 */
+
+/* fourth section */
 .img-2 {
   left: 740px;
   top: 2200px;
@@ -220,8 +227,39 @@ h3 {
   left: 80px;
   top: 2630px;
 }
+
+/* fifth section */
+.img-3 {
+  width: 520px;
+  height: 750px;
+  left: 80px;
+  top: 2900px;
+}
+
+.title-5 {
+  text-align: left;
+  width: 600px;
+  height: 100px;
+  left: 650px;
+  top: 2950px;
+}
+.para-7 {
+  width: 600px;
+  height: 200px;
+  left: 650px;
+  top: 3140px;
+  font-size: 18px;
+}
+.btn-4 {
+  width: 172px;
+  height: 48px;
+  left: 650px;
+  top: 3380px;
+}
+
+/* footer section */
 .footer {
-  top: 3000px;
+  top: 3800px;
   width: 100%;
   height: 170px;
   background-color: #000000;
